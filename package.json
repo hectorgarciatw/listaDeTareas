@@ -1,0 +1,29 @@
+{
+  "name": "listadetareas",
+  "version": "1.0.0",
+  "description": "Simple lista de tareas implementado con ExpressJs y MongoDb",
+  "main": "index.js",
+  "scripts": {
+    "start":"nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hectorgarciatw/listaDeTareas.git"
+  },
+  "keywords": [
+    "ExpressJs",
+    "MongoDb"
+  ],
+  "author": "Lic. García Héctor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hectorgarciatw/listaDeTareas/issues"
+  },
+  "homepage": "https://github.com/hectorgarciatw/listaDeTareas#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}

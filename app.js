@@ -8,7 +8,8 @@ const app = express();
 //Middlewares
 app.use(morgan("dev"));
 app.use(express.json());
-
+//Configurando archivos estáticos
+app.use(express.static(`${__dirname}/public`));
 //const activitieRouter = express.Router();
 //Montando la ruta
 app.use("/activities", activitieRouter);

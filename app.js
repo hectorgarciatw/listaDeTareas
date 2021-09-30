@@ -5,7 +5,7 @@ const path = require("path");
 const morgan = require("morgan");
 const activitieRouter = require("./routes/activitiesRoutes");
 const app = express();
-app.set("view engine", "pug");
+app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "views"));
 
 //Middlewares

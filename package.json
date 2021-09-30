@@ -22,7 +22,8 @@
     "homepage": "https://github.com/hectorgarciatw/listaDeTareas#readme",
     "dependencies": {
         "express": "^4.17.1",
-        "morgan": "^1.10.0"
+        "morgan": "^1.10.0",
+        "pug": "^3.0.2"
     },
     "devDependencies": {
         "eslint": "^7.32.0",
